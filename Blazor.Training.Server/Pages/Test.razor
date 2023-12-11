@@ -1,0 +1,10 @@
+@page "/Test"
+<PageTitle>Testing blazor component</PageTitle>
+<h3>Testing blazor component</h3>
+<h4>Counter is: @Counter</h4>
+<button class="btn btn-primary" @onclick="IncrementCounter">Increment counter</button>
+@code {
+    private int Counter = 0;
+    public void IncrementCounter() 
+        => Counter++;
+}
