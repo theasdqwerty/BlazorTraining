@@ -4,6 +4,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{8FA85998-AE0
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Blazor.Training.Server", "Blazor.Training.Server\Blazor.Training.Server.csproj", "{B868E82F-61AF-4C62-9C2F-57B21D6C58E4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Blazor.Training.Client.WebAssembly", "Blazor.Training.Client.WebAssembly\Blazor.Training.Client.WebAssembly.csproj", "{840063D0-A49B-4D94-AE53-B836E231109C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -11,11 +13,16 @@ Global
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{B868E82F-61AF-4C62-9C2F-57B21D6C58E4} = {8FA85998-AE09-4B2F-ABC8-2D85F6A71238}
+		{840063D0-A49B-4D94-AE53-B836E231109C} = {8FA85998-AE09-4B2F-ABC8-2D85F6A71238}
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{B868E82F-61AF-4C62-9C2F-57B21D6C58E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{B868E82F-61AF-4C62-9C2F-57B21D6C58E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B868E82F-61AF-4C62-9C2F-57B21D6C58E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B868E82F-61AF-4C62-9C2F-57B21D6C58E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{840063D0-A49B-4D94-AE53-B836E231109C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{840063D0-A49B-4D94-AE53-B836E231109C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{840063D0-A49B-4D94-AE53-B836E231109C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{840063D0-A49B-4D94-AE53-B836E231109C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
